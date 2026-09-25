@@ -8,7 +8,7 @@ A reproducible IMU calibration workflow with real sensor samples and a Python fi
 
 “衡准”是本项目标定方案与工具的名称。姿态融合来自 **x-io Fusion**，原嵌入式 IMU 驱动基于 **逐飞科技**代码移植；这里不将第三方算法更名为自研成果。
 
-> **禁止商业使用，商业用途须另行授权。** 自有代码采用 PolyForm Noncommercial 1.0.0，自有文档与数据采用 CC BY-NC 4.0。完整范围见 [LICENSE](LICENSE)，署名见 [NOTICE](NOTICE)。这是非商业许可的源码公开项目。
+> **禁止未经许可的商业使用。** 自有代码采用 PolyForm Noncommercial 1.0.0，自有文档与数据采用 CC BY-NC 4.0，具体允许用途以完整许可为准。PolyForm 对教育、公益、公共研究等机构有明确许可条款。完整范围见 [LICENSE](LICENSE)，署名见 [NOTICE](NOTICE)。这是非商业许可的源码公开项目。
 
 ## 先跑一个真实样例
 
@@ -71,7 +71,7 @@ LICENSES/              完整软件及文档/数据许可
 
 ## 与电赛工程的关系
 
-电赛整机使用了本方案的历史标定流程和参数。后续电赛仓库会引用本项目的固定版本，同时保留比赛固件与配置快照；当前不提供尚未发布的电赛仓库链接。
+电赛整机使用了本方案的历史标定流程和参数。[电赛代码参考仓库](https://github.com/chijinhao520/nuedc-ball-balancing) 已发布，并固定引用本项目首版；它只公开核心控制、视觉和通信模块，不包含完整比赛固件与配置。
 
 ## 作者与致谢
 

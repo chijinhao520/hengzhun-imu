@@ -26,10 +26,10 @@ Copyright (c) 2026 池金壕。
 
 | 内容 | 许可 |
 |---|---|
-| `tools/`、`tests/` 内自有 Python 代码，`.github/` 内自有工作流配置 | [PolyForm Noncommercial 1.0.0](LICENSES/PolyForm-Noncommercial-1.0.0.txt) |
+| `tools/`、`tests/` 内自有 Python 代码 | [PolyForm Noncommercial 1.0.0](LICENSES/PolyForm-Noncommercial-1.0.0.txt) |
 | README、文档、样例数值数据、清单与结果文件 | [CC BY-NC 4.0](LICENSES/CC-BY-NC-4.0.txt) |
 | 第三方许可原文、名称和被引用内容 | 仍按相应原有权利与条款处理 |
 
-未经另行授权，禁止商业使用作者自有内容。非商业使用仍需遵守完整许可，保留“池金壕 — 衡准 IMU / HengZhun IMU”署名、许可与修改说明。这里不把版权许可扩展为对一般数学方法、传感器原理或第三方算法的排他所有权。
+禁止未经许可的商业使用，具体允许范围以完整条款为准。PolyForm 明确允许其列举的教育、公益、公共研究等机构使用，不因资助来源或由资助产生的义务而排除这些机构；CC BY-NC 按使用目的判断，不能仅凭机构身份判断。软件再分发须保留 PolyForm 条款或 URL 及 Required Notice，建议注明修改；文档和数据共享须依 CC BY-NC 保留署名、许可并标明修改。这里不把版权许可扩展为对一般数学方法、传感器原理或第三方算法的排他所有权。
 
 完整许可原文来源：[PolyForm](https://polyformproject.org/licenses/noncommercial/1.0.0.txt)、[Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt)。本次随仓保存原文，不通过自拟短句替代其条款。
