@@ -1,0 +1,28 @@
+HengZhun IMU / 衡准 IMU — license scope
+Copyright (c) 2026 池金壕
+
+1. All original Python software under tools/ and tests/, and original workflow
+   configuration under .github/, is provided under the unmodified PolyForm
+   Noncommercial License 1.0.0 in LICENSES/PolyForm-Noncommercial-1.0.0.txt.
+
+2. Original README, documentation, example sensor datasets, manifests and result
+   files are provided under Creative Commons Attribution-NonCommercial 4.0
+   International, as reproduced in LICENSES/CC-BY-NC-4.0.txt.
+
+3. License texts and externally attributed material retain their own terms.
+   No rights in third-party drivers, algorithms, names or trademarks are granted
+   beyond those granted by their respective rights holders. External SEEKFREE
+   and Fusion source code is not included in this repository.
+
+Required attribution: 池金壕 — HengZhun IMU / 衡准 IMU.
+
+The linked full license texts govern; this file identifies their scope.
+Commercial use of the original licensed materials is not authorized by these
+licenses and requires separate permission. Public source availability does not
+mean unrestricted use or OSI-approved open source.
+
+中文说明（不替代完整许可正文）：
+自有软件采用 PolyForm Noncommercial 1.0.0；自有文档和样例数据采用
+CC BY-NC 4.0。允许的非商业使用必须遵守各自完整条款并保留署名及许可。
+未经另行授权，禁止商业使用。逐飞 GPLv3 与 Fusion MIT 不受本项目
+非商业条款重新限制；本仓库不包含它们的源代码。

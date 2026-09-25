@@ -1,0 +1,7 @@
+[解析] examples/data/yaw-three-turns.csv: 4225 条记录, 跨度 84.5s, 重同步丢弃 0 段
+  examples/data/yaw-three-turns.csv 第1段: 实测  +1078.04°  应为 +1080°  scale 1.00182  (闭合误差 -1.96° = -0.65°/圈; 原始积分交叉验证差 +8.3°)
+  examples/data/yaw-three-turns.csv 第2段: 实测  -1077.01°  应为 -1080°  scale 1.00278  (闭合误差 +2.99° = -1.00°/圈; 原始积分交叉验证差 -0.6°)
+
+// ==== 粘贴到 imu660rb_calib.h ====
+#define IMU660RB_GYRO_SCALE_Z   ( 1.00230f )
+// 各段散布 0.096%（>0.3% 说明对齐参考不稳，建议重采）

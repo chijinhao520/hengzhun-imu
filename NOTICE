@@ -1,0 +1,15 @@
+HengZhun IMU / 衡准 IMU
+Copyright (c) 2026 池金壕
+Required Notice: Copyright (c) 2026 池金壕 — HengZhun IMU / 衡准 IMU.
+
+Original software: PolyForm Noncommercial License 1.0.0.
+Original documentation and example data: Creative Commons Attribution-NonCommercial 4.0 International.
+Commercial use requires a separate authorization from the respective rights holder.
+
+Required attribution for original work: 池金壕 — HengZhun IMU / 衡准 IMU.
+Retain this notice, the applicable license, and a description of your modifications when redistributing.
+
+SEEKFREE and x-io Technologies are credited for their roles in the originating embedded project.
+Their drivers and Fusion source code are not included in this standalone repository.
+This project's noncommercial conditions do not replace their GPLv3 or MIT terms.
+See THIRD_PARTY_NOTICES.md and LICENSE for exact scope.

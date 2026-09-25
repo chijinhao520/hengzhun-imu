@@ -1,0 +1,15 @@
+[解析] examples/data/six-face.csv: 2343 条记录, 跨度 46.8s, 重同步丢弃 0 段
+
+各朝向静止窗口数: {'-X': 2, '+X': 5, '-Y': 2, '+Y': 3, '-Z': 3, '+Z': 4}
+  X: +1g读数   4057.6  -1g读数  -4075.3  bias    -8.9 LSB  scale 1.00784
+  Y: +1g读数   4055.4  -1g读数  -4136.4  bias   -40.5 LSB  scale 1.00061
+  Z: +1g读数   4000.2  -1g读数  -4156.5  bias   -78.1 LSB  scale 1.00490
+
+// ==== 粘贴到 imu660rb_calib.h（并更新标定履历日期）====
+#define IMU660RB_ACC_BIAS_X     ( -8.9f )
+#define IMU660RB_ACC_BIAS_Y     ( -40.5f )
+#define IMU660RB_ACC_BIAS_Z     ( -78.1f )
+#define IMU660RB_ACC_SCALE_X    ( 1.00784f )
+#define IMU660RB_ACC_SCALE_Y    ( 1.00061f )
+#define IMU660RB_ACC_SCALE_Z    ( 1.00490f )
+// 自检：拟合后模长残差 max 0.46% (修正前 z 轴约 2%)，>0.5% 说明采集面不稳，建议重采

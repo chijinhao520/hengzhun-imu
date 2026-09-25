@@ -1,0 +1,40 @@
+{
+  "format_version": 1,
+  "sensor": "IMU660RB / LSM6DSR",
+  "acc_range_g": 8,
+  "gyro_range_dps": 2000,
+  "acquired": "2026-07-19 (project calibration record)",
+  "original_parser_sha256": "b02eed3735a4e6beeb00d2c968e3ee1ae2b9500f22b11c56d8f3e06ae4d60500",
+  "files": [
+    {
+      "file": "examples/data/six-face.csv",
+      "sha256": "e79040f0f194e1bb37585991196f96d1899ce7369534e092f5b50df171e97b76",
+      "raw_source_sha256": "b1e0e3fc025ea8386c86e7b4ccb60ef474e00d6b407be14841db69d590ebb13a",
+      "records": 2343,
+      "sample_interval_ms": 20,
+      "transformation": "Keep parsed 11-integer sensor records in original order; remove serial prefixes, banners and non-record bytes. No interpolation or change to numeric values.",
+      "parser_dropped_segments": 0,
+      "command": [
+        "python",
+        "tools/imu_calib_fit.py",
+        "sixface",
+        "examples/data/six-face.csv"
+      ]
+    },
+    {
+      "file": "examples/data/yaw-three-turns.csv",
+      "sha256": "59cfa82dcbb1133e407724f8d261bd86e1714a39831909f47ebce0592f468b11",
+      "raw_source_sha256": "511c8574916c755af5ed4c06d94e910fed7f48e1dc06dc38be0b287019e45c7b",
+      "records": 4225,
+      "sample_interval_ms": 20,
+      "transformation": "Keep parsed 11-integer sensor records in original order; remove serial prefixes, banners and non-record bytes. No interpolation or change to numeric values.",
+      "parser_dropped_segments": 0,
+      "command": [
+        "python",
+        "tools/imu_calib_fit.py",
+        "yawscale",
+        "examples/data/yaw-three-turns.csv:+3,-3"
+      ]
+    }
+  ]
+}
